@@ -1,7 +1,5 @@
 <?php
 
-//echo '<h1>Данные пользователя:</h1>';
-
 header("Content-Type: image/png");
 $name = $_POST['name'];
 $sname = $_POST['sname'];
@@ -22,4 +20,5 @@ imagestring($im, 5, 50, 150, $mail, $txt_color);
 
 imagepng($im);
 imagedestroy($im);
+
 ?>
