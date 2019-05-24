@@ -3,6 +3,7 @@
 //echo '<h1>Данные пользователя:</h1>';
 
 header("Content-Type: image/png");
+/* Тут не понятно что за name? это не переменная и не константа, у тебя ошибка вылетит */
 $name=name;
 $sname=sname;
 $date=date;
